@@ -7,7 +7,7 @@ const genreURL = "https://api.themoviedb.org/3/genre/";
 // eslint-disable-next-line
 
 // const utellyKEY = "84d184dfd2msh6b5924af4ec8de5p14dfb2jsn75fb3b8d9b09";
-const connerKEY = "9KBNrYyc6smshwxvf4gIpT7UMF7Ep19W8h3jsnGfSntcS9oioI";
+const alexKEY = "84d184dfd2msh6b5924af4ec8de5p14dfb2jsn75fb3b8d9b09";
 let returnObject = [];
 const removeFalsy = obj => {
   for (let i = 0; i < obj.length; i++) {
@@ -36,7 +36,7 @@ export default {
         "https://utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com/lookup?term=" +
           query +
           "&country=us",
-        { headers: { "X-RapidAPI-Key": connerKEY } }
+        { headers: { "X-RapidAPI-Key": alexKEY } }
       )
       .then(function(data) {
         let showLocations = [];

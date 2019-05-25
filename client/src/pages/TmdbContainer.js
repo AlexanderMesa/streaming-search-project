@@ -85,7 +85,7 @@ class TmdbContainer extends Component {
       () => {
         setTimeout(() => {
           this.setState(() => newState);
-        }, 2000);
+        }, 3000);
       }
     );
   };

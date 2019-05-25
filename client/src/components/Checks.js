@@ -13,13 +13,7 @@ function Checks({ handleChecksInput, userServices }) {
           checked={userServices.includes("Netflix")}
         />
         <label className="custom-control-label" htmlFor="netflixCheck">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1024px-Netflix_icon.svg.png"
-            alt=""
-            width="50"
-            height="50"
-          />
-          <p>Netflix</p>
+          Netflix
         </label>
       </div>
       <div className="custom-control custom-checkbox d-inline mx-2">
@@ -32,13 +26,7 @@ function Checks({ handleChecksInput, userServices }) {
           checked={userServices.includes("Amazon Prime")}
         />
         <label className="custom-control-label" htmlFor="amazonCheck">
-          <img
-            src="https://services.tegrazone.com/sites/default/files/app-icon/amazon-video_appicon2_0.png"
-            alt=""
-            width="50"
-            height="50"
-          />
-          <p>Amazon</p>
+          Amazon Prime
         </label>
       </div>
       <div className="custom-control custom-checkbox d-inline mx-2">
@@ -51,13 +39,7 @@ function Checks({ handleChecksInput, userServices }) {
           checked={userServices.includes("iTunes")}
         />
         <label className="custom-control-label" htmlFor="itunesCheck">
-          <img
-            src="https://tunesgo.wondershare.com/images/en/itunes-tips/itunes-icon-anekdamian.png"
-            alt=""
-            width="50"
-            height="50"
-          />
-          <p>iTunes</p>
+          iTunes
         </label>
       </div>
       <div className="custom-control custom-checkbox d-inline mx-2">
@@ -70,13 +52,7 @@ function Checks({ handleChecksInput, userServices }) {
           checked={userServices.includes("Google Play")}
         />
         <label className="custom-control-label" htmlFor="googleCheck">
-          <img
-            src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/google_play.png"
-            alt="google"
-            width="50"
-            height="50"
-          />
-          <p>Google</p>
+          Google Play
         </label>
       </div>
     </div>
