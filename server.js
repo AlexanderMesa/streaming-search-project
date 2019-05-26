@@ -21,7 +21,10 @@ app.get("*", (req, res) => {
 
 //Database
 //if deployed, use the deployed database, otherwise use local database
-let db = process.env.MONGODB_URI || "mongodb://localhost/streamingApp";
+let db =
+  process.env.MONGODB_URI ||
+  "mongodb://streamingApp:password1@ds261626.mlab.com:61626/heroku_zwdn7js7" ||
+  "mongodb://localhost/streamingApp";
 
 //connect mongoose to database
 mongoose.connect(db, error => {
