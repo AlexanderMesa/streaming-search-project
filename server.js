@@ -8,10 +8,7 @@ const mongoose = require("mongoose");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("./client/build"));
-  console.log("env success");
-}
+app.use(express.static("./client/build"));
 
 require("./routes/index.js")(app);
 
